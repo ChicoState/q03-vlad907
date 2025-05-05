@@ -77,9 +77,11 @@ bool Guesser::match(string guess){
     return false;
   }
   else{
+    m_remaining = 3; // ← Add this to reset guesses
     return true;
   }
 }
+
 
 /*
   Returns the number of guesses remaining. A Guesser object allows up to

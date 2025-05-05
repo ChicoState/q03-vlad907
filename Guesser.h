@@ -12,9 +12,9 @@ private:
   unsigned int m_remaining;
   bool m_locked;
 
-  unsigned int distance(string guess);
 
 public:
+  unsigned int distance(string guess);
 
   Guesser(string secret);
 
